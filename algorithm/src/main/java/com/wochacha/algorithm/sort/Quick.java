@@ -26,6 +26,8 @@ public class Quick extends Example {
         sort(a, j + 1, hi);
     }
 
+
+
     private static int partition(Comparable[] a, int lo, int hi) {
         int i = lo, j = hi + 1;
         Comparable v = a[i];
